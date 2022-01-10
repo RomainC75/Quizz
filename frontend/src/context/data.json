@@ -1,0 +1,43 @@
+[
+    {
+        "photo":"https://picsum.photos/id/1041/200/300",
+        "question":"Est un temps pour la plongée ?",
+        "availableResponses":[
+            "oui",
+            "non",
+            "seulement pour les courageux !"
+        ],
+        "goodAnswer":1
+    },
+    {
+        "photo":"https://picsum.photos/id/1052/200/300",
+        "question":"a quelle profondeur doit on décompresser ?",
+        "availableResponses":[
+            "5m",
+            "2m",
+            "seulement la nuit"
+        ],
+        "goodAnswer":1
+    },
+    {
+        "photo":"https://picsum.photos/id/1069/200/300",
+        "question":"Si vous voyez une méduse, que faites vous ?",
+        "availableResponses":[
+            "rien",
+            "tenter de la dresser",
+            "fuir en palmant !!"
+        ],
+        "goodAnswer":2
+    },
+    {
+        "photo":"https://picsum.photos/id/275/200/300",
+        "question":"si vous voyez des mouettes groupées sur une zone à la surface de l'eau, c'est qu'il y a certainement ..",
+        "availableResponses":[
+            "des poisons !!",
+            "un coffre au trésor",
+            "d'autres mouettes cachées en dessous",
+            "on s'en fout, je bois une bière"
+        ],
+        "goodAnswer":0
+    }
+]

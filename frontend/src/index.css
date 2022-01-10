@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+}
+
+html, body {
+  min-height: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(at top left, #922be1 0%, #2b096b 100%);
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.Header {
+  width: 100%;
+  background: #4c4c96;
+  height: 30px;
+}
+
+.goodAnswer {
+  color: blue;
+}
+
+.badAnswer {
+  color: red;
+}
+
+.correction {
+  color: green;
+}
+
+.Results ul {
+  margin-bottom: 20px;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+}
+.Results ul * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+}
+.Results ul html, .Results ul body {
+  min-height: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.Results ul body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(at top left, #922be1 0%, #2b096b 100%);
+  background-repeat: no-repeat;
+}
+.Results ul code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.Results ul .Header {
+  width: 100%;
+  background: #4c4c96;
+  height: 30px;
+}
+.Results ul .goodAnswer {
+  color: blue;
+}
+.Results ul .badAnswer {
+  color: red;
+}
+.Results ul .correction {
+  color: green;
+}
+.Results ul .Results ul {
+  margin-bottom: 20px;
+}
+.Results ul .Results ul li {
+  margin-bottom: 10px;
+}
+.Results ul .Header {
+  display: flex;
+  justify-content: space-between;
+}
+.Results ul .Header a {
+  margin: 0 20px 0 20px;
+  font-weight: bold;
+}
+.Results ul .WelcomeQuizz, .Results ul .Main, .Results ul .Quizz {
+  max-width: 600px;
+  margin: 50px auto;
+}
+.Results ul .WelcomeQuizz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Results ul .WelcomeQuizz div {
+  margin-bottom: 40px;
+}
+.Results ul .Quizz__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Results ul .Quizz__container img {
+  max-width: 300px;
+}
+.Results ul .Quizz__container__question {
+  margin-bottom: 40px;
+}
+.Results ul .Quizz__container__response {
+  font-weight: 800;
+}
+.Results ul .Quizz__container__response li {
+  text-align: center;
+}
+.Results ul .Quizz__container__response li:hover {
+  cursor: pointer;
+}
+.Results ul .Main {
+  font-weight: 700;
+}
+.Results ul .Main__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.Results ul .Results ul li {
+  text-align: center;
+}
+.Results ul li {
+  margin-bottom: 10px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+.Header a {
+  margin: 0 20px 0 20px;
+  font-weight: bold;
+}
+
+.WelcomeQuizz, .Main, .Quizz {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.WelcomeQuizz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.WelcomeQuizz div {
+  margin-bottom: 40px;
+}
+
+.Quizz__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Quizz__container img {
+  max-width: 300px;
+}
+.Quizz__container__question {
+  margin-bottom: 40px;
+}
+.Quizz__container__response {
+  font-weight: 800;
+}
+.Quizz__container__response li {
+  text-align: center;
+}
+.Quizz__container__response li:hover {
+  cursor: pointer;
+}
+
+.Main {
+  font-weight: 700;
+}
+.Main__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Results ul li {
+  text-align: center;
+}
+.Results .question {
+  font-weight: 600;
+}
+.Results__resultat {
+  text-align: center;
+}
+.Results__resultat mark {
+  background: none;
+  font-size: 2em;
+}/*# sourceMappingURL=index.css.map */
